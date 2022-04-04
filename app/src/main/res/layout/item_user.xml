@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="5"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/login_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:layout_weight="1"
+        android:text="Item 1"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>
